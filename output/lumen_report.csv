@@ -1,0 +1,37 @@
+type,endpoint,result
+Broken Auth,https://www.lumen.com/login,VULNERABLE (HIGH): admin:admin
+Broken Auth,https://www.lumen.com/login,VULNERABLE (HIGH): admin:password
+Broken Auth,https://www.lumen.com/login,VULNERABLE (HIGH): user:user
+Broken Auth,https://www.lumen.com/login,VULNERABLE (HIGH): root:root
+Broken Auth,https://www.lumen.com/login,VULNERABLE (HIGH): test:test
+Broken Auth,https://www.lumen.com/admin/login,VULNERABLE (HIGH): admin:admin
+Broken Auth,https://www.lumen.com/admin/login,VULNERABLE (HIGH): admin:password
+Broken Auth,https://www.lumen.com/admin/login,VULNERABLE (HIGH): user:user
+Broken Auth,https://www.lumen.com/admin/login,VULNERABLE (HIGH): root:root
+Broken Auth,https://www.lumen.com/admin/login,VULNERABLE (HIGH): test:test
+Broken Auth,https://www.lumen.com/user/login,VULNERABLE (HIGH): admin:admin
+Broken Auth,https://www.lumen.com/user/login,VULNERABLE (HIGH): admin:password
+Broken Auth,https://www.lumen.com/user/login,VULNERABLE (HIGH): user:user
+Broken Auth,https://www.lumen.com/user/login,VULNERABLE (HIGH): root:root
+Broken Auth,https://www.lumen.com/user/login,VULNERABLE (HIGH): test:test
+Clickjacking,https://www.lumen.com/,SAFE
+CSRF,https://www.lumen.com/,VULNERABLE (HIGH)
+CSRF,https://www.lumen.com/,VULNERABLE (HIGH)
+CSRF,https://www.lumen.com/,VULNERABLE (HIGH)
+Dir Listing,https://www.lumen.com/,SAFE
+Sec Headers,https://www.lumen.com/,Missing Permissions-Policy
+Open Redirect,https://www.lumen.com/?redirect=https://evil.com,VULNERABLE (MEDIUM)
+Open Redirect,https://www.lumen.com/?next=https://evil.com,VULNERABLE (MEDIUM)
+Open Redirect,https://www.lumen.com/?url=https://evil.com,VULNERABLE (MEDIUM)
+Open Redirect,https://www.lumen.com/?return=https://evil.com,VULNERABLE (MEDIUM)
+Open Redirect,https://www.lumen.com/?continue=https://evil.com,VULNERABLE (MEDIUM)
+Open Redirect,https://www.lumen.com/?redir=https://evil.com,VULNERABLE (MEDIUM)
+Open Redirect,https://www.lumen.com/?go=https://evil.com,VULNERABLE (MEDIUM)
+Sensitive Info,https://www.lumen.com/.env,SAFE
+Sensitive Info,https://www.lumen.com/.git/config,SAFE
+Sensitive Info,https://www.lumen.com/backup.zip,SAFE
+Sensitive Info,https://www.lumen.com/db.sql,SAFE
+Sensitive Info,https://www.lumen.com/config.php.bak,SAFE
+XSS,https://www.lumen.com/,SAFE
+XSS,https://www.lumen.com/,SAFE
+XSS,https://www.lumen.com/,SAFE

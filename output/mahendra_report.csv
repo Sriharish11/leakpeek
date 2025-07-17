@@ -1,0 +1,38 @@
+type,endpoint,result
+Broken Auth,https://mahendra.info/login,SAFE
+Broken Auth,https://mahendra.info/login,SAFE
+Broken Auth,https://mahendra.info/login,SAFE
+Broken Auth,https://mahendra.info/login,SAFE
+Broken Auth,https://mahendra.info/login,SAFE
+Broken Auth,https://mahendra.info/admin/login,SAFE
+Broken Auth,https://mahendra.info/admin/login,SAFE
+Broken Auth,https://mahendra.info/admin/login,SAFE
+Broken Auth,https://mahendra.info/admin/login,SAFE
+Broken Auth,https://mahendra.info/admin/login,SAFE
+Broken Auth,https://mahendra.info/user/login,SAFE
+Broken Auth,https://mahendra.info/user/login,SAFE
+Broken Auth,https://mahendra.info/user/login,SAFE
+Broken Auth,https://mahendra.info/user/login,SAFE
+Broken Auth,https://mahendra.info/user/login,SAFE
+Clickjacking,https://mahendra.info/,VULNERABLE (MEDIUM)
+CSRF,https://mahendra.info/,No forms found
+Dir Listing,https://mahendra.info/,SAFE
+Sec Headers,https://mahendra.info/,Missing CSP
+Sec Headers,https://mahendra.info/,Missing X-Frame-Options
+Sec Headers,https://mahendra.info/,Missing HSTS
+Sec Headers,https://mahendra.info/,Missing X-Content-Type-Options
+Sec Headers,https://mahendra.info/,Missing Referrer-Policy
+Sec Headers,https://mahendra.info/,Missing Permissions-Policy
+Open Redirect,https://mahendra.info/?redirect=https://evil.com,SAFE
+Open Redirect,https://mahendra.info/?next=https://evil.com,SAFE
+Open Redirect,https://mahendra.info/?url=https://evil.com,SAFE
+Open Redirect,https://mahendra.info/?return=https://evil.com,SAFE
+Open Redirect,https://mahendra.info/?continue=https://evil.com,SAFE
+Open Redirect,https://mahendra.info/?redir=https://evil.com,SAFE
+Open Redirect,https://mahendra.info/?go=https://evil.com,SAFE
+Sensitive Info,https://mahendra.info/.env,SAFE
+Sensitive Info,https://mahendra.info/.git/config,SAFE
+Sensitive Info,https://mahendra.info/backup.zip,SAFE
+Sensitive Info,https://mahendra.info/db.sql,SAFE
+Sensitive Info,https://mahendra.info/config.php.bak,SAFE
+XSS,https://mahendra.info/?xss=<script>alert(1337)</script>,SAFE

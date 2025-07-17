@@ -1,0 +1,37 @@
+type,endpoint,result
+Broken Auth,https://hexaware.com/login,SAFE
+Broken Auth,https://hexaware.com/login,SAFE
+Broken Auth,https://hexaware.com/login,SAFE
+Broken Auth,https://hexaware.com/login,SAFE
+Broken Auth,https://hexaware.com/login,SAFE
+Broken Auth,https://hexaware.com/admin/login,SAFE
+Broken Auth,https://hexaware.com/admin/login,SAFE
+Broken Auth,https://hexaware.com/admin/login,SAFE
+Broken Auth,https://hexaware.com/admin/login,SAFE
+Broken Auth,https://hexaware.com/admin/login,SAFE
+Broken Auth,https://hexaware.com/user/login,SAFE
+Broken Auth,https://hexaware.com/user/login,SAFE
+Broken Auth,https://hexaware.com/user/login,SAFE
+Broken Auth,https://hexaware.com/user/login,SAFE
+Broken Auth,https://hexaware.com/user/login,SAFE
+Clickjacking,https://hexaware.com/,VULNERABLE (MEDIUM)
+CSRF,https://hexaware.com/,No forms found
+Dir Listing,https://hexaware.com/,SAFE
+Sec Headers,https://hexaware.com/,Missing CSP
+Sec Headers,https://hexaware.com/,Missing X-Frame-Options
+Sec Headers,https://hexaware.com/,Missing X-Content-Type-Options
+Sec Headers,https://hexaware.com/,Missing Referrer-Policy
+Sec Headers,https://hexaware.com/,Missing Permissions-Policy
+Open Redirect,https://hexaware.com/?redirect=https://evil.com,SAFE
+Open Redirect,https://hexaware.com/?next=https://evil.com,SAFE
+Open Redirect,https://hexaware.com/?url=https://evil.com,SAFE
+Open Redirect,https://hexaware.com/?return=https://evil.com,SAFE
+Open Redirect,https://hexaware.com/?continue=https://evil.com,SAFE
+Open Redirect,https://hexaware.com/?redir=https://evil.com,SAFE
+Open Redirect,https://hexaware.com/?go=https://evil.com,SAFE
+Sensitive Info,https://hexaware.com/.env,SAFE
+Sensitive Info,https://hexaware.com/.git/config,SAFE
+Sensitive Info,https://hexaware.com/backup.zip,SAFE
+Sensitive Info,https://hexaware.com/db.sql,SAFE
+Sensitive Info,https://hexaware.com/config.php.bak,SAFE
+XSS,https://hexaware.com/?xss=<script>alert(1337)</script>,SAFE

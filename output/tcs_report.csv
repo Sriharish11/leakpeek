@@ -1,0 +1,34 @@
+type,endpoint,result
+Broken Auth,https://www.tcs.com/login,VULNERABLE (HIGH): admin:admin
+Broken Auth,https://www.tcs.com/login,VULNERABLE (HIGH): admin:password
+Broken Auth,https://www.tcs.com/login,VULNERABLE (HIGH): user:user
+Broken Auth,https://www.tcs.com/login,VULNERABLE (HIGH): root:root
+Broken Auth,https://www.tcs.com/login,VULNERABLE (HIGH): test:test
+Broken Auth,https://www.tcs.com/admin/login,VULNERABLE (HIGH): admin:admin
+Broken Auth,https://www.tcs.com/admin/login,VULNERABLE (HIGH): admin:password
+Broken Auth,https://www.tcs.com/admin/login,VULNERABLE (HIGH): user:user
+Broken Auth,https://www.tcs.com/admin/login,VULNERABLE (HIGH): root:root
+Broken Auth,https://www.tcs.com/admin/login,VULNERABLE (HIGH): test:test
+Broken Auth,https://www.tcs.com/user/login,VULNERABLE (HIGH): admin:admin
+Broken Auth,https://www.tcs.com/user/login,VULNERABLE (HIGH): admin:password
+Broken Auth,https://www.tcs.com/user/login,VULNERABLE (HIGH): user:user
+Broken Auth,https://www.tcs.com/user/login,VULNERABLE (HIGH): root:root
+Broken Auth,https://www.tcs.com/user/login,VULNERABLE (HIGH): test:test
+Clickjacking,https://www.tcs.com/,SAFE
+CSRF,https://www.tcs.com/,No forms found
+Dir Listing,https://www.tcs.com/,SAFE
+Sec Headers,https://www.tcs.com/,Missing Referrer-Policy
+Sec Headers,https://www.tcs.com/,Missing Permissions-Policy
+Open Redirect,https://www.tcs.com/?redirect=https://evil.com,SAFE
+Open Redirect,https://www.tcs.com/?next=https://evil.com,SAFE
+Open Redirect,https://www.tcs.com/?url=https://evil.com,SAFE
+Open Redirect,https://www.tcs.com/?return=https://evil.com,SAFE
+Open Redirect,https://www.tcs.com/?continue=https://evil.com,SAFE
+Open Redirect,https://www.tcs.com/?redir=https://evil.com,SAFE
+Open Redirect,https://www.tcs.com/?go=https://evil.com,SAFE
+Sensitive Info,https://www.tcs.com/.env,VULNERABLE (HIGH)
+Sensitive Info,https://www.tcs.com/.git/config,VULNERABLE (HIGH)
+Sensitive Info,https://www.tcs.com/backup.zip,VULNERABLE (HIGH)
+Sensitive Info,https://www.tcs.com/db.sql,SAFE
+Sensitive Info,https://www.tcs.com/config.php.bak,SAFE
+XSS,https://www.tcs.com/?xss=<script>alert(1337)</script>,SAFE

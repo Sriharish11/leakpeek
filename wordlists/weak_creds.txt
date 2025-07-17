@@ -1,0 +1,5 @@
+admin:admin
+admin:password
+user:user
+root:root
+test:test 
