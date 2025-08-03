@@ -19,4 +19,6 @@ python3 leakpeek.py scan --url https://example.com --modules all --threads 10 --
 ```
 
 ## Legal Disclaimer
-This tool is for authorized testing and educational purposes only. Unauthorized use is prohibited. 
+This tool is for authorized testing and educational purposes only. Unauthorized use is prohibited.
+
+**Built with ❤️ for the cybersecurity community** 
